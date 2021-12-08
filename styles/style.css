@@ -3,8 +3,98 @@ Colors to use:
 dark blue: #06365f
 light blue: #1c5380
 */
+*{
+  box-sizing: border-box;
+}
 
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  background-image: url("/week3/lab-css-instagram-clone/images/bgtile.png");
+  background-repeat: repeat-x;
+
 }
+
+
+#container {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ margin: 100px 100px 0 100px;
+
+}
+
+#phone{
+  
+}
+
+
+#home-page {
+  position: relative;
+}
+
+
+#logo-and-login{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+  
+}
+
+.button{
+  display: flex;
+  border-radius: 3px;
+  background-image: linear-gradient(#2983a7,#1c5380);
+  height: 40px;
+  box-shadow: 0 0 5px rgba(247, 245, 245, 0.25);
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.button_text{
+  color: rgb(197, 192, 192);
+  font-weight: 700;
+}
+
+.button_icon{
+  color: rgb(231, 220, 220);
+
+}
+
+#main-content{
+  border: 0px solid rgb(209, 201, 201);
+  background-color: white;
+  border-radius: 4px;
+  padding: 10px 30px 50px 30px;
+  box-shadow: 0 -100px 7px rgba(145, 128, 128, 0.25);
+}
+
+
+h3{
+  color: #06365f;
+  font-weight: 800;
+}
+footer{
+  display: inline;
+
+}
+
+.buttom{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-around;
+  margin: 50px 100px;
+  padding: 0 200px;
+  
+}
+
+a{
+  text-decoration: none;
+  font-weight: 700;
+  color: #497397;
+}
+
